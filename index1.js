@@ -48,4 +48,13 @@
     default:
     console.log("I don't know this grade.");
    }
-   
+   //This is more readable than the alternative if-else statement:
+if(grade === "F" || grade === "D") {
+    console.log("You've failed!");
+   } else if(grade === "C" || grade === "B") {
+    console.log("You've passed!");
+   } else if(grade === "A") {
+    console.log("Nice!");
+   } else {
+    console.log("I don't know this grade.");
+   }
