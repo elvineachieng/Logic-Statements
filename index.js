@@ -51,4 +51,14 @@ console.log(myVariable);
        let age1 = prompt("Please enter your age");
        age1=Number(age);
        let message1;
-       
+       if (age>=21){
+        message1="You are allowed entry to the venue and you can purchase alcohol.";
+       }
+       else if(age>=19){
+        message1="You are allowed entry to the venue but cannot purchase alcohol.";
+       }
+       else{
+        message1="You are denied entry to the venue.";
+       }
+       console.log(message1)
+
