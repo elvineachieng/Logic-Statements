@@ -18,3 +18,25 @@ if (!myVariable){
 }
 myVariable=!myVariable;
 console.log(myVariable);
+//else if statements
+ //If *a value falls into a certain category*, then *a certain action will happen*, else if *the value falls into a different category than the previous statement*, then *a certain action will happen*, else if *the value falls into a different category than either of the previous brackets*,then *a certain action will happen*
+ let age = 10;
+ let cost = 0;
+ let message;
+ if (age<3){
+    cost=0;
+    message="Acces is free under three.";
+ }else if (age>=3 && age>12){
+        cost=5;
+        message="With the child discount, the fee is dollars";
+    }else if(age>=12 && age<65){
+        cost=10;
+        message="A regular ticket cost 10 dollars";
+    }else {
+        cost=7;
+        message="A ticket is 7 dollars.";
+    }
+    console.log(message);
+    console.log("Your Total "+cost);
+     
+ 
