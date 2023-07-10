@@ -26,7 +26,7 @@ console.log(myVariable);
  if (age<3){
     cost=0;
     message="Acces is free under three.";
- }else if (age>=3 && age>12){
+ }else if (age>=3 && age<12){
         cost=5;
         message="With the child discount, the fee is dollars";
     }else if(age>=12 && age<65){
