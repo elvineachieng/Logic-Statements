@@ -38,5 +38,13 @@ console.log(myVariable);
     }
     console.log(message);
     console.log("Your Total "+cost);
-     
+    if(age < 3){
+        console.log("Access is free under three.");
+       } else if(age < 12) {
+        console.log("With the child discount, the fee is 5 dollars");
+       } else if(age < 65) {
+        console.log("A regular ticket costs 10 dollars.");
+       } else if(age >= 65) {
+        console.log("A ticket is 7 dollars.");
+       }
  
