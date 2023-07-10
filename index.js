@@ -47,4 +47,8 @@ console.log(myVariable);
        } else if(age >= 65) {
         console.log("A ticket is 7 dollars.");
        }
- 
+       //another exercise
+       let age1 = prompt("Please enter your age");
+       age1=Number(age);
+       let message1;
+       
