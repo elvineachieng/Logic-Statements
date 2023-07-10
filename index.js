@@ -61,4 +61,8 @@ console.log(myVariable);
         message1="You are denied entry to the venue.";
        }
        console.log(message1)
+       //conditional ternary opetrators
+       //f *operand1*, then *operand2*, else *operand3*
+       let acces = age2 < 18 ? "denied":"allowed";
+       
 
