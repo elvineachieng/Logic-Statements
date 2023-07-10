@@ -39,7 +39,7 @@ console.log(myVariable);
     console.log(message);
     console.log("Your Total "+cost);
     if(age < 3){
-        console.log("Access is free under three.");
+    console.log("Access is free under three.");
        } else if(age < 12) {
         console.log("With the child discount, the fee is 5 dollars");
        } else if(age < 65) {
@@ -48,21 +48,26 @@ console.log(myVariable);
         console.log("A ticket is 7 dollars.");
        }
        //another exercise
-       let age1 = prompt("Please enter your age");
+    let age1 = prompt("Please enter your age");
        age1=Number(age);
-       let message1;
-       if (age>=21){
+    let message1;
+    if (age>=21){
         message1="You are allowed entry to the venue and you can purchase alcohol.";
-       }
+    }
        else if(age>=19){
         message1="You are allowed entry to the venue but cannot purchase alcohol.";
-       }
+    }
        else{
         message1="You are denied entry to the venue.";
-       }
-       console.log(message1)
+    }
+    console.log(message1)
        //conditional ternary opetrators
        //f *operand1*, then *operand2*, else *operand3*
-       let acces = age2 < 18 ? "denied":"allowed";
-       
+    let acces = age2 < 18 ? "denied":"allowed";
+    //exercise 4.3
+    let hasValidID=true;
+    let message2 = hasValidID? "You are allowed entry to the venue.":"You are denied entry to the venue.";
+    console.log(message);
+
+
 
