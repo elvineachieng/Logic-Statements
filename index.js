@@ -7,3 +7,14 @@ if (rain){
 else {
     console.log("I can leave my umbrella at home");
 }
+//practise exercise 4.1
+let myVariable=true;
+console.log(myVariable);
+if (myVariable){
+    console.log("The variabe is true");
+}
+if (!myVariable){
+    console.log("The variable is not true!");
+}
+myVariable=!myVariable;
+console.log(myVariable);
