@@ -54,7 +54,11 @@ if (userNames.indexOf(userInput) > -1) {
    let b = 10;
    let c = 20;
    let d = 30;
+   //\\ returns true if either conditions is true
    console.log(a > b || b > a);
+   //$$ returns true if both conditions are true
    console.log(a > b && b > a);
+   //true
    console.log(d > b || b > a);
+   //true
    console.log(d > b && b > a);
