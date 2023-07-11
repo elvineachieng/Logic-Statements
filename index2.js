@@ -15,3 +15,23 @@ if (isNaN(userNumber)) {
     console.log(userNumber + " is equal to " + dynamicNumber);
   }
 }
+let userName = prompt("Please enter your name:");
+
+let confirmationMessage = "";
+
+switch (userName) {
+  case "Alice":
+    confirmationMessage = "Welcome, friend! You are known.";
+    break;
+  case "Bob":
+    confirmationMessage = "Welcome, friend! You are known.";
+    break;
+  case "Charlie":
+    confirmationMessage = "Welcome, friend! You are known.";
+    break;
+  default:
+    confirmationMessage = "Sorry, I don't know you.";
+    break;
+}
+
+console.log(confirmationMessage);
