@@ -23,10 +23,10 @@ switch (userName) {
   case "Alice":
     confirmationMessage = "Welcome, friend! You are known.";
     break;
-  case "Bob":
+  case "Peshi":
     confirmationMessage = "Welcome, friend! You are known.";
     break;
-  case "Charlie":
+  case "Elvine":
     confirmationMessage = "Welcome, friend! You are known.";
     break;
   default:
