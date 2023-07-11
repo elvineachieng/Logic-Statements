@@ -35,3 +35,29 @@ switch (userName) {
 }
 
 console.log(confirmationMessage);
+
+let options = ["Rock", "Paper", "Scissors"];
+
+let playerIndex = Math.floor(Math.random() * 3);
+let computerIndex = Math.floor(Math.random() * 3);
+
+let playerSelection = options[playerIndex];
+let computerSelection = options[computerIndex];
+
+let resultMessage = "Player: " + playerSelection + " | Computer: " + computerSelection + " | ";
+
+if (playerSelection === computerSelection) {
+  resultMessage += "It's a tie!";
+} else {
+  if (
+    (playerSelection === "Rock" && computerSelection === "Scissors") ||
+    (playerSelection === "Paper" && computerSelection === "Rock") ||
+    (playerSelection === "Scissors" && computerSelection === "Paper")
+  ) {
+    resultMessage += "Player wins!";
+  } else {
+    resultMessage += "Computer wins!";
+  }
+}
+
+console.log(resultMessage);
